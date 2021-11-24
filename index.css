@@ -1,0 +1,226 @@
+body{
+    background-image: url(./images/logo.svg);
+    background-color: rgb(91, 195, 243);
+    background-repeat: no-repeat;
+}
+
+/* .navbar{
+    float:right ;
+    position: sticky;
+    padding: 1em;
+    text-decoration-style: none;
+} */
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: white;
+    color: black;
+    border-radius: 25%;
+    padding: 1em;
+    
+  }
+
+.img{
+    width: 1330px;
+    height: 600px;
+    padding-top: 4em;
+   
+}
+
+.arrow{
+    position: absolute;
+    top: 300px;
+    left:640px ;
+}
+
+.first-txt {
+    position:absolute;
+    text-align: center;
+    top: 100px;
+    left: 500px;
+    color: white;
+    font-family: 'Fraunces', serif;
+}
+
+.heading{
+    font-family: 'Fraunces', serif;
+}
+
+.transform{
+    background-color: white;
+    padding: 5em;
+    width: 473px;
+    float: left;
+}
+
+.egg{
+    width: 700px;
+    height: 365px;
+    float: right;
+}
+
+.pink{
+    width: 633px;
+    height: 365px;
+    float: left;
+}
+
+.standout{
+    background-color: white;
+    padding: 5em;
+    width: 540px;
+    float: left;
+}
+ 
+.cherry{
+    width: 633px;
+    height: 365px;
+    float: left;
+    position: relative;
+}
+
+.orange{
+    width: 700px;
+    height: 365px;
+    float: right;
+    position: relative;
+}
+
+.txt {
+    position:absolute;
+    bottom: 20px;
+    left: 10px;
+    padding: 2em;
+}
+
+.txt1{
+    position: relative;
+    bottom: 8px;
+    right: 16px;
+    padding: 2em;
+}
+
+.testimonials{
+    background-color: white;
+    text-align: center;
+   
+}
+
+.client{
+    text-align: center;
+    color: rgb(185, 160, 185);
+    font-family: 'Fraunces', serif;
+   
+}
+.emily{
+    border-radius: 100%;
+}
+
+.thomas{
+    border-radius: 100%;
+}
+
+.jennie{
+    border-radius: 100%;
+}
+
+.faces{
+    float: left;
+    width: 33%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 25%;
+    }
+  }
+
+  .milkbottles{
+      width: 100%;
+  }
+
+  .galleryorange{
+      width: 100%;
+  }
+
+  .cone{
+      width: 100%;
+  }
+
+  .sugarcubes{
+      width: 100%;
+  }
+
+  .sunny{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    color: rgb(29, 85, 79);
+    font-size: 150%;
+  }
+
+  .end{
+    float: left;
+    width: 25%;
+    padding: 2em;
+    color: rgb(29, 85, 79);
+    text-align: center;
+  }
+ 
+  .footer a {
+    color: rgb(29, 85, 79);
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .footerall{
+      text-align: center;
+      background-color: rgb(118, 231, 203);
+      padding: 2em;
+  }
+  .icons{
+    float: left;
+    width: 25%;
+    margin-left: 470px;
+    padding-top: 5em;
+  }
+  
+  /* Clear floats after the icons */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .facebook{
+      padding-left: 1em;
+  }
+  
